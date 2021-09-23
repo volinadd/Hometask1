@@ -18,6 +18,7 @@ int main(void) {
     dec[dec_count++] = c;
     while ((c = getchar()) != '\n')
         dec[dec_count++] = c;
+        
 
     double res = 0;
 
